@@ -2,10 +2,10 @@ You an make each website editable in your browser with this simple code as link:
 
 javascript: [ 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'p' ].
         forEach( 
-                tag => Array.of(...document.getElementsByTagName(tag) ).
-                forEach( 
-                  el => el.setAttribute('contenteditable', 'true')
-                )
+                tag => Array.of( ...document.getElementsByTagName(tag) ).
+                        forEach( 
+                          el => el.setAttribute('contenteditable', 'true')
+                        )
         )
 
 1. create a link in a browser of your choice ( firefox, edget, opera )
