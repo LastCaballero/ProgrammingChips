@@ -5,8 +5,9 @@ line = [ 1, 2, 3, 4, 5 , 6 , 7, 8, 9, 10 ]
 
 line.rand = () => {
     const len    = line.length
+    const times  = len * 10
     const get_index = () => Number.parseInt( Math.random() * len )
-    for (let i = 0; i < 10; i++) {
+    for (let i = 0; i < times ; i++) {
         let index_a = get_index()
         let index_b = get_index()
         if ( index_a != index_b ) {
