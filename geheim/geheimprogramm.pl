@@ -59,3 +59,21 @@ for ( sort keys %$data) {
       printf "%-40s%10.2f\n", "avg", $info{'avg'} ;
       printf "%-40s%10i\n", "count", $info{'count'} ;
 }
+
+sub stats {
+      my @min_box ;
+      my @max_box ;
+      my @sum_box ;
+      my @avg_box ;
+      my @count_box ;
+      for ( sort keys %$data) {
+            my %info = %{@{$data->{$_}}[$#{$data->{$_}}]} ;
+            push @min_box,    {name => $_ , value => $info{'min'}} ;
+            push @max_box,    {name => $_ , value => $info{'max'}} ;
+            push @sum_box,    {name => $_ , value => $info{'sum'}} ;
+            push @avg_box,    {name => $_ , value => $info{'avg'}} ;
+            push @count_box,  {name => $_ , value => $info{'count'}} ;
+      }
+}
+
+stats() ;
