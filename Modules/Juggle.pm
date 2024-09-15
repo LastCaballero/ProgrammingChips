@@ -15,3 +15,5 @@ sub juggle_array {
         $ar_ref->[$rd2] = $mem ; 
     }
 }
+
+1
