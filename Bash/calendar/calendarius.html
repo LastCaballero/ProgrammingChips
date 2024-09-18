@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendarisu</title>
+    <style>
+        body {
+            margin: 45px ;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .date {
+            padding-top: 50px ;
+            border-bottom: 1px ridge black ;
+            font-family: monospace;
+            font-size: 20px ;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        let date = new Date('2025-01-01')
+        const par = document.createElement('p')
+        par.className = 'date'
+        par.innerText = date.toDateString()
+        document.body.append( par )
+        while( true ) {
+            date = new Date( date.setDate(date.getDate() + 1) )
+            const par = document.createElement('p')
+            par.className = 'date'
+            par.innerText = date.toDateString()
+            document.body.append( par )
+            if(date.toDateString().match('2026')) break ;
+        }
+        console.log(date)
+    </script>
+</body>
+</html>
