@@ -14,6 +14,11 @@ Challenges could be:
 1. Writing a counter
 2. Writing a logger
 3. a small network application
-4. matrix programm
+4. matrix program
 5. ...
+
+Another good advice is to program something that you need for yourself and something new that doesn´t exist.
+
+## How to learn
+It is better to try something out than reading and remembering stupid theory.
 
