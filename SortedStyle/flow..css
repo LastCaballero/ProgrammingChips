@@ -1,0 +1,40 @@
+body {
+    margin: 120px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: beige;
+}
+
+div.tres {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 10px ;
+}
+
+p.sort {
+    font-weight: 900 ;
+}
+
+p.sort:hover {
+    cursor: pointer ;
+}
+
+
+
+section {
+    padding-top             :   40px              ;
+    padding-bottom          :   40px              ;
+    border-bottom-width     :   2px               ;
+    border-bottom-style     :   dashed            ;
+    border-bottom-color     :   aquamarine      ;
+}
+
+div.menu {
+    position: fixed ;
+    right   : 45px  ;
+    top     : center  ;
+    border-color: navy; 
+    border-width: 2px ;
+    border-style:outset ;
+    border-radius: 12px ;
+    padding: 15px ;
+}
