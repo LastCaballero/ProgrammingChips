@@ -1,24 +1,2 @@
-# Own Solutions
-
-It is about programing your own way instead of looking at tutorials in the web copying code from someone else.
-At the end programming is to find a solution for a problem. It is 1000 times better to find your own solution than to use simply solutions of other programmers, AI and so on. Ohter benefit is, that you learn much more than the tipically professional programmer.
-
-## Challenges
-
-A good way to learn is to create your own challenges, instead of starting by **hello world** :-).
-
-
-### Challenges
-Challenges could be:
-
-1. Writing a counter
-2. Writing a logger
-3. a small network application
-4. matrix program
-5. ...
-
-Another good advice is to program something that you need for yourself and something new that doesn´t exist.
-
-## How to learn
-It is better to try something out than reading and remembering stupid theory.
-
+# Eigene Lösungen
+Es ist so ziemlich das langweiligste Code aus dem Web zu kopieren. Irgendwo ist der Code immer gleicht. Es macht viel mehr Spaß eigene Lösungen zu finden oder herauszufinden, wie etwas funktionieren könnte als in irgendwelchen Tutorials nachzuschauen.
