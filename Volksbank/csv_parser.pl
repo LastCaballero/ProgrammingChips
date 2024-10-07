@@ -5,11 +5,11 @@ use warnings    ;
 
 
 sub output 	;
-sub toFloat ;
-sub balance ;
+sub toFloat 	;
+sub balance 	;
 
-my $accounts 	= 	{} ;
-my $sums		= 	{} ;
+my $accounts 	=	{} ;
+my $sums	= 	{} ;
 
 my $file = shift ;
 
