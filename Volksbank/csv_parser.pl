@@ -38,13 +38,8 @@ sub output {
 		printf $header, $_, @{$accounts->{$_}} + 0  ;
 		for ( 
 			sort {
-					
-					my @a = split /\./,$a->[0] ;
-					my @b = split /\./,$b->[0] ;
-					my $one = $a[0] + $a[1] + $a[2] + 0  ;
-					my $two = $b[0] + $b[1] + $b[2] + 0  ;
-					$one <=> $two 
-				} 
+					$a->[1] <=> $b->[1]
+			} 
 				@{$accounts->{$_}} 
 			) {
 			 printf $format, $_->[0], $_->[1] ;
