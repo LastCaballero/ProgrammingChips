@@ -1,5 +1,5 @@
 # Cobol
-Man muss sich wirlich fragen, wer Cobol erfunden hat und warum. Und man muss sich fragen, warum es heute noch benutzt wird. Mein Eindruck ist, dass die Programmiersprache vollkommen untypisch ist.
+Man muss sich wirlich fragen, wer Cobol erfunden hat und warum. Und man muss sich fragen, warum es heute noch benutzt wird. Mein Eindruck ist, dass die Programmiersprache vollkommen untypisch ist. Normale Programmierer müssen da tatsächlich **vollkommen** umdenken. Vielleicht ist es die Programmiersprache für Buchhalter, oder so :-)
 
 ## Einfache Ausgabe
 Eine einfach Ausgabe sieht so aus:
