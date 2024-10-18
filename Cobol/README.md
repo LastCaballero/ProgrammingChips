@@ -10,4 +10,16 @@ PROGRAM-ID.	AUSGABE.
 PROCEDURE DIVISION.
 	DISPLAY "GUCK KUCK".
 ```
+## Wiederholte Ausgabe
+Eine wiederholte Ausgabe sieht so aus:
+```cobol
+IDENTIFICATION DIVISION.
+PROGRAM-ID. 'Wiederholte Ausgabe'.
+
+PROCEDURE DIVISION.
+	PERFORM 10 TIMES
+		DISPLAY "GUCK KUCK"
+	END-PERFORM.
+
+```
 
