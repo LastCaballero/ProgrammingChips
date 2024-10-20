@@ -5,7 +5,7 @@ data division.
 working-storage section.
 01 	zahl1 	pic 999.
 01 	zahl2 	pic 999.
-01 	mem 	  pic 999.
+01 	mem 	pic 999.
 
 procedure division.
 
